@@ -1,5 +1,3 @@
-</html>
-
 <!-- assignment 2 --> 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -7,78 +5,113 @@
 <head>
 
 	<meta charset="utf-8">
-	<title>Homework Assignment 1</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<title>HMA 2</title>
+	
+
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
 
 </head>
 
-
+ 
 <body background="assets/images/sandpaper.png">
 
-	<!--
-	 <background-image: url="C:\Users\Jared\Desktop\Coding\Codes\sandpaper.png">
-	-->
 
-	<ul>
-		<li><a href="contact.html">Contact</a></li>
-  		<li><a href="portfolio.html">Portfolio</a></li>
-  		<li><a href="index.html">About</a></li>
-	</ul>
+<div class="container-fluid">
 
-	<header>
+	<div class="row" id="header">
 
-		<h1>Jared Moscrip</h1>
+		<a href="index.html" id="logo">Jared Moscrip</a>
 
+		<nav>
 
-	</header>
+			<a href="index.html">
+	  			<span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+	  		About 
+	  			<span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+	  		</a>
 
+	  		<a href="portfolio.html">
+	  			<span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+	  		Portfolio 
+	  			<span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span></a>
 
-	<div class="clearfix">
+	  		<a href="contact.html">
+				<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+			Contact 
+				<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
 
+		</nav>
 
-		<section id="about"> 
-
-			<h2>About Me</h2>
-
-			<img src="assets/images/Me!.jpg" alt="Jared" height="200" width="150" class="meme">
-
-			<p>I enjoying messing around on computers and trying to figure them out before I just completely mess them up. Which has happened more than once. </p>
-
-			<br>
-
-			<p>I'm currently working on getting better at understanding HTML and CSS and completing a Coding Boot Camp sponcered by Northwestern. Things are challenging and difficult at times, but we have plenty of great teachers and TAs and class mates to help one another figure out our code!</p>
 		
-		</section>
-	</div>
-
-	<div class="connections">
-
-		<section id="connections">
-
-			<h3>Connect with Me</h3>
-
-			
-			<p>
-			<a class="links" href="https://www.github.com/1jared123"><img alt="Github" src="assets/images/github1.png" width="50" height="50">
-			</a>
-
-			<a class="links" href="https://www.linkedin.com/"><img alt="Linkedin" src="assets/images/linkedin.png" width="50" height="50">
-			</a>
-
-			<a class="links" href="https://www.stackoverflow.com"><img alt="StackOverflow" src="assets/images/stackoverflow.png" width="50" height="50">
-			</a>
-			</p>
-
-		</section>
-
-
 	</div>
 
 
+	<div class="row">
+
+			<div class="col-md-6">
+				
+				<div class="clearfix">
+
+				
+
+					<section id="about"> 
+
+						<h2>
+							<span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+						About Me
+							<span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+						</h2>
+
+						<img src="assets/images/darthbat.jpg" alt="Jared" height="200" width="150" class="meme">
+
+						<p>I enjoying messing around on computers and trying to figure them out before I just completely mess them up. Which has happened more than once. </p>
+
+						<br>
+
+						<p>I'm currently working on getting better at understanding HTML and CSS and completing a Coding Boot Camp sponcered by Northwestern. Things are challenging and difficult at times, but we have plenty of great teachers and TAs and class mates to help one another figure out our code!</p>
+					
+					</section>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+
+				<div class="connections">
+
+					<span id="connections">
+
+						<h3>
+							<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
+						Connect with Me
+							<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
+						</h3>
+
+						
+						<p>
+						<a class="links" href="https://www.github.com/1jared123"><img alt="Github" src="assets/images/github1.png" width="50" height="50">
+						</a>
+
+						<a class="links" href="https://www.linkedin.com/"><img alt="Linkedin" src="assets/images/linkedin.png" width="50" height="50">
+						</a>
+
+						<a class="links" href="https://www.stackoverflow.com"><img alt="StackOverflow" src="assets/images/stackoverflow.png" width="50" height="50">
+						</a>
+						</p>
+
+					</span>
+				</div>
+			</div>
+	</div>
+</div>
+
+<div class="row">
+	
+	<div class="col-md-12">
 
 	<footer>
 
@@ -87,5 +120,8 @@
 
 	</footer>
 
+</div>
+
 
 </body>
+</html>
